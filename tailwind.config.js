@@ -11,7 +11,9 @@ export default {
       },
       colors: {
        'my-black':'#282828',
-       'my-secoundry':'#938C8C'
+       'my-secoundry':'#938C8C',
+       'my-white':"#FFF"
+
       },
       screens: {
         'largeScreen': '1600px',

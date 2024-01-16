@@ -17,7 +17,7 @@ const Hero = () => {
                 <div className='lg:flex'>
                     <div className='pt-[8.56rem] largeScreen:pt-[15rem] pl-[2.06rem] pr-[2.06rem] sm:pr-0  lg:w-[67.57%] of-left-hero'>
                         <h1 className='lg:w-[75.39%]'>Hey !! Mario still here, But don’t forget that</h1>
-                        <p className='lg:w-[72.35%]  pt-[1.81rem]'>At focal X agency, we are working to build somthing different.
+                        <p className='lg:w-[72.35%]  pt-[1.81rem] pb-[4rem]'>At focal X agency, we are working to build somthing different.
                             Here you’ll have a group of creative people who specialize in:
                             Branding, Digital Marketing, Web/App Development, Ui/Ux
                             Content creation, Graphic design, Social media and More........
@@ -32,9 +32,9 @@ const Hero = () => {
             </header>
             <div className='of-header-social-media relative'>
                 <img className='of-img1' src={Vector1} alt="social media links" />
-                <img className='xl:absolute xl:inline hidden right-0 top-[-310px]  z-[33] ' src={gameBoy} alt="gameboy photo" />
-                <img className='xl:inline hidden  xl:absolute z-[55] right-[105px] top-[-130px]' src={vector2} alt="this is image" />
-                <p className='xl:absolute xl:block hidden right-[338px] top-[-74px] of-header-social-media-p'>START</p>
+                <img className='xl:absolute xl:inline hidden right-[0.88rem] bottom-[2.69rem]  z-[33] ' src={gameBoy} alt="gameboy photo" />
+                <img className='xl:inline hidden  xl:absolute right-[8rem] bottom-[9.84rem] z-[55] ' src={vector2} alt="this is image" />
+                <p className='xl:absolute xl:block hidden right-[22.4rem] bottom-[15.12rem] of-header-social-media-p'>START</p>
                 <div>
                     <div className='absolute  flex gap-1 md:top-[69.71%] top-[60%] left-[1.94rem]'>
                         <img className='md:w-[30px] w-[15px]' src={facebook} alt='social media links' />
@@ -47,7 +47,7 @@ const Hero = () => {
                         <img className='md:w-[21px] w-[10px]' src={groub} alt="" />
                          <p className='md:text-base text-[0.6rem]'>Scroll To Discover</p>                 
                     </div>
-                    <div className='flex justify-center items-center gap-[0.38rem] absolute  left-[69.25%]  md:top-[80.21%] top-[51%] of-copyrightfocalx'>
+                    <div className='flex justify-center items-center gap-[0.38rem] absolute left-[69.25%]   md:bottom-[1.44rem]  bottom-[0.3rem] of-copyrightfocalx'>
                           <span className='text-white'>&copy;</span>
                           <span className='of-copyright md:text-base text-[0.6rem]'>2021 - 2022 focal X agency All Right Reserved</span>
                     </div>
@@ -58,3 +58,6 @@ const Hero = () => {
 }
 
 export default Hero
+
+// left-[69.25%]
+// right-[105px] top-[-130px]
