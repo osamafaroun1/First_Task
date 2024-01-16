@@ -12,7 +12,8 @@ export default {
       colors: {
        'my-black':'#282828',
        'my-secoundry':'#938C8C',
-       'my-white':"#FFF"
+       'my-white':"#FFF",
+       'my-gold':"rgba(40, 40, 40, 0.15)"
 
       },
       screens: {
