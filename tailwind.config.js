@@ -13,12 +13,14 @@ export default {
        'my-black':'#282828',
        'my-secoundry':'#938C8C',
        'my-white':"#FFF",
-       'my-gold':"rgba(40, 40, 40, 0.15)"
-
+       'my-gold':"rgba(40, 40, 40, 0.15)",
+       'my-orange':'#FF8500',
+       'my-silver':"rgba(255, 255, 255, 0.15)"
       },
       screens: {
         'largeScreen': '1600px',
       },
+
     },
   },
   plugins: [],
