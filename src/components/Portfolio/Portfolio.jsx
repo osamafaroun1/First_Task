@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import photo from '../../assets/Ellipse22.png'
-import cup from '../../assets/cup1.png'
+import cup from '../../assets/mycup.svg'
 import img_1 from '../../assets/umber4 1.png'
 import img_2 from '../../assets/UMBER1 1.png'
 import img_3 from '../../assets/UMBER31.png'
@@ -15,24 +15,48 @@ import img_11 from '../../assets/reff21.png'
 import img_12 from '../../assets/bagdad.png'
 import img_13 from '../../assets/maldive.png'
 import img_14 from '../../assets/Ellipse23.png'
-import img_15 from '../../assets/yox2-min1.png'
+import img_15 from '../../assets/mobile.svg'
 import img_16 from '../../assets/Ellipse6.png'
-import img_17 from '../../assets/اعرف-ويبسايت 1.png'
-import img_18 from '../../assets/logo123.png'
-import img_19 from '../../assets/logos vector-03-min 1.png'
-import img_20 from '../../assets/logos5.png'
-import img_21 from '../../assets/pngwing.png'
-import img_22 from '../../assets/SeekPng.png'
+import img_17 from '../../assets/mobile2.svg'
+import img_18 from '../../assets/face1.svg'
+import img_21 from '../../assets/google1.svg'
+import img_22 from '../../assets/aws1.svg'
+import img_20 from '../../assets/gis1.svg'
+import img_19 from '../../assets/kwuit1.svg'
+import img_23 from '../../assets/23.svg'
+import img_24 from '../../assets/24.svg'
+import img_25 from '../../assets/Elaf.svg'
+import img_26 from '../../assets/المركز الاكاديمي.svg'
+import img_27 from '../../assets/البيت الانيق.svg'
+import img_28 from '../../assets/ساث.svg'
+import img_29 from '../../assets/Lets.svg'
+import img_30 from '../../assets/umber.svg'
+import img_31 from '../../assets/lemex.svg'
+import img_32 from '../../assets/Rfeeca.svg'
+import img_33 from '../../assets/ys.svg'
+import img_34 from '../../assets/kids.svg'
+import img_35 from '../../assets/kcrd.svg'
+import img_36 from '../../assets/oct.svg'
+import img_40 from '../../assets/1.svg'
+import img_41 from '../../assets/2.svg'
+import img_42 from '../../assets/3.svg'
+import img_43 from '../../assets/4.svg'
+import img_44 from '../../assets/5.svg'
+import img_45 from '../../assets/6.svg'
+import img_46 from '../../assets/8.svg'
+
+
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './Portfolio.css'
 const Portfolio = () => {
+
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", color:"red" }}
+        style={{ ...style, display: "block", color: "red" }}
         onClick={onClick}
       />
     );
@@ -43,7 +67,7 @@ const Portfolio = () => {
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", color:"black" }}
+        style={{ ...style, display: "block", color: "black" }}
         onClick={onClick}
       />
     );
@@ -82,6 +106,7 @@ const Portfolio = () => {
       }
     ]
   };
+
   return (
     <>
       {/* section one */}
@@ -325,8 +350,13 @@ const Portfolio = () => {
         </div>
       </section>
       {/* section Seven*/}
-
-      <div style={{ boxShadow: ' 0px 4px 40px 0px rgba(112, 144, 176, 0.14)' }} className="of-slider py-[2.26rem] px-[2.06rem] mt-[8.05rem]  bg-white ">
+      <div className="mt-[3.94rem] flex flex-wrap">
+        <img src={img_23} alt="this is image" />
+        <img src={img_24} alt="this is image" />
+        <h2 className="text-my-black font-my-font text-3xl not-italic font-bold leading-normal pl-[1rem] pt-[2.06rem]">Sister Companies & Digital Partners</h2>
+      </div>
+      {/* section */}
+      <section style={{ boxShadow: ' 0px 4px 40px 0px rgba(112, 144, 176, 0.14)' }} className="of-slider py-[2.26rem] px-[2.06rem] mt-[2.12rem]  bg-white ">
         <Slider {...settings}>
           <div className="block">
             <img className="block mx-auto" src={img_18} alt="" />
@@ -344,7 +374,38 @@ const Portfolio = () => {
             <img className="block mx-auto" src={img_19} alt="" />
           </div>
         </Slider>
-      </div>
+      </section>
+
+      {/* section  */}
+      <section className="mt-[3.88rem] mb-[4.12rem]">
+        <h2 className="text-my-black font-my-font text-3xl not-italic font-bold leading-normal mx-auto w-[20.7rem]">Clients Who Trust Us</h2>
+        <div className="flex flex-wrap justify-center xl:justify-between  xl:gap-0 gap-10  pl-[2.06rem]  pr-[1.94rem]   mt-[2.56rem]">
+          <img src={img_25} alt="this is image" />
+          <img src={img_26} alt="this is image" />
+          <img src={img_27} alt="this is image" />
+          <img src={img_28} alt="this is image" />
+          <img src={img_29} alt="this is image" />
+        </div>
+        <div className="flex flex-wrap justify-center xl:justify-between  xl:gap-0 gap-10  pl-[2.19rem]  pr-[1.94rem] mt-[3.19rem]">
+          <img src={img_30} alt="this is image" />
+          <img src={img_31} alt="this is image" />
+          <img src={img_32} alt="this is image" />
+          <img src={img_33} alt="this is image" />
+          <img src={img_34} alt="this is image" />
+          <img src={img_35} alt="this is image" />
+          <img src={img_36} alt="this is image" />
+        </div>
+        <div className="flex flex-wrap justify-center xl:justify-between  xl:gap-0 gap-10 sm:pl-[13.06rem] pl-[2rem]  sm:pr-[13.63rem] pr-[2rem] mt-[4rem]">
+          <img src={img_40} alt="this is image" />
+          <img src={img_41} alt="this is image" />
+          <img src={img_42} alt="this is image" />
+          <img src={img_43} alt="this is image" />
+          <img src={img_44} alt="this is image" />
+          <img src={img_45} alt="this is image" />
+          <img src={img_46} alt="this is image" />
+          <h2 className="text-my-black font-my-font text-[1.6rem] not-italic font-medium leading-normal sm:mt-[2.56rem]">& MORE..........</h2>
+        </div>
+      </section>
     </>
   )
 }
