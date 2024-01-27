@@ -1,6 +1,7 @@
 import './Navbar.css'
 import logo from '../../assets/focal X1.jpg'
 import { useState } from 'react'
+
 const Navbar = () => {
   //collapse Navbar
   const [navCollapse, setNavCollapse] = useState(false)

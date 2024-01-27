@@ -5,11 +5,9 @@
     content: url(../../assets/Vector3.svg);
 }
 .slick-prev:before {
-
     opacity: .75;
     color: #282828;
     -webkit-font-smoothing: antialiased;
-
 }
 .slick-next:before {
     opacity: .75;
